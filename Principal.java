@@ -8,13 +8,13 @@ public class Principal {
     boolean laco = true;
     String resultado ="";
     int opcao = 0;
-	String opcao2 = "";
-	Instrumento i = new Instrumento();
+    String opcao2 = "";
+    Instrumento i = new Instrumento();
     Guitarra guitarra = new Guitarra();
-	Baixo baixo = new Baixo();
-	Bateria bateria = new Bateria();
-	Estoque estoque = new Estoque();
-	boolean entradaValida = false;
+    Baixo baixo = new Baixo();
+    Bateria bateria = new Bateria();
+    Estoque estoque = new Estoque();
+    boolean entradaValida = false;
 	
 
     while(laco){
@@ -35,9 +35,7 @@ public class Principal {
 
 			case 1:{
 				System.out.println("\n == Cadastrar Guitarra ==");
-                guitarra.setNome("Guitarra");
-
-
+                		guitarra.setNome("Guitarra");
 				guitarra.getfornecedor().setCnpj(Integer.parseInt(l.entDados(" Digite o CNPJ do fornecedor do item")));
 				guitarra.getfornecedor().setEndereco(l.entDados(" Digite o endereco do fornecedor dos item"));
 				guitarra.getestoque().setQtdDeItens(Integer.parseInt(l.entDados(" Digite a quantidade que tem no estoque")));
