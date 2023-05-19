@@ -1,14 +1,12 @@
--- git init -> cria o repositorio
-
--- Para entrar em um repositorio deve usar o comando cd, e se a pasta tiver espaço usar o " " (aspas duplas) no caminho da mesma
+-- Para entrar em um repositorio deve usar o comando cd, e se o nome da pasta tiver espaço usar o " " (aspas duplas) no caminho da mesma
 
 -- dica do curso trocar onde estiver "master" para "main"
 
 Comandos:
 
-"git init" -> cria o repositorio
+"git init" -> Cria uma pasta git no seu repo, inicia ele
 
-"git status" -> Mostra como está o estado do seu fonte comparado ou git na nuvem
+"git status" -> Mostra como está o estado do seu fonte local o comparando com o git na nuvem
 
 "git add <NomeDoArquivo>" -> Adiciona o arquivo ao projeto, podemos usar com o caminho do diretório para adicionar tudo que está ao diretório, também podemos usar o "git add ." para estar adicionando tudo
 
