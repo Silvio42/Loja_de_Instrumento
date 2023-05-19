@@ -10,4 +10,7 @@ Comandos:
 
 "git status" -> Mostra como está o estado do seu fonte comparado ou git na nuvem
 
-"git add <NomeDoArquivo>" -> Adiciona o arquivo ao projeto, podemos usar com o caminho do diretório para adicionar tudo que está ao diretório
+"git add <NomeDoArquivo>" -> Adiciona o arquivo ao projeto, podemos usar com o caminho do diretório para adicionar tudo que está ao diretório, também podemos usar o "git add ." para estar adicionando tudo
+
+"git commit" possui duas flags "-a" para enviar todos os arquivos e o "-m" para enviar uma mensagem, o "-m" deve estar com um texto assim logo após "exemplo do git de comentário"
+
